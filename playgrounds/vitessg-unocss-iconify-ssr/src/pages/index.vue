@@ -1,7 +1,4 @@
 <script setup lang="ts">
-// import { addIcon } from 'iconify-icon'
-// import boldActivity from '@iconly-unofficial-icons/all-refactor/bold-activity' // icon-package
-// addIcon('nigga', boldActivity)
 const boldWeight = [
   'i-iconly-bold-activity',
   'i-iconly-bold-arrow-down-solid',
@@ -107,12 +104,10 @@ const boldWeight = [
 </script>
 
 <template>
-  <!-- <iconify-icon icon="nigga" /> -->
-
   <div class="max-w-[900px] mx-auto">
-    <div grid grid-cols-5 lg:grid-cols-6 md gap-4>
-      <div v-for="(icon, index) in boldWeight" :key="index" class="flex items-center justify-center border border-3 rounded-[1rem] border-[#e5e7eb] w-[122px] h-[122px]">
-        <div inline-block :class="icon" text-12 :title="icon" />
+    <div grid grid-cols-4 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 md gap-2 sm:gap-4 justify-items-center>
+      <div v-for="(icon, index) in boldWeight" :key="index" class="flex items-center justify-center border border-3 rounded-[1rem] border-[#e5e7eb] w-[60px] h-[60px] sm:w-[122px] sm:h-[122px]">
+        <div inline-block :class="icon" text-6 sm:text-12 :title="icon" />
       </div>
     </div>
   </div>
