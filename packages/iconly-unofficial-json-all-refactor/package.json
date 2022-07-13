@@ -1,11 +1,13 @@
 {
-	"name": "iconly-unofficial-json-refactor",
+	"name": "@iconly-unofficial-json/all-refactor",
 	"description": "iconly icon set in Iconify JSON format",
 	"version": "0.0.1",
 	"iconSetVersion": "2.3",
 	"main": "index.js",
 	"module": "index.mjs",
 	"types": "index.d.ts",
+	"bugs": "https://github.com/iconly-unofficial/iconly/issues",
+	"homepage": "https://github.com/iconly-unofficial/iconly",
 	"exports": {
 		"./*": "./*",
 		".": {
