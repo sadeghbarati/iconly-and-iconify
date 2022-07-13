@@ -1,0 +1,124 @@
+<script setup lang="ts">
+// import { addIcon } from 'iconify-icon'
+// import boldActivity from '@iconly-unofficial-icons/all-refactor/bold-activity' // icon-package
+// addIcon('nigga', boldActivity)
+const boldWeight = [
+  'i-iconly-bold-activity',
+  'i-iconly-bold-arrow-down-solid',
+  'i-iconly-bold-arrow-down-square',
+  'i-iconly-bold-arrow-down',
+  'i-iconly-bold-arrow-left-solid',
+  'i-iconly-bold-arrow-left-square',
+  'i-iconly-bold-arrow-left',
+  'i-iconly-bold-arrow-right-circle',
+  'i-iconly-bold-arrow-right-square',
+  'i-iconly-bold-arrow-right',
+  'i-iconly-bold-arrow-right-solid',
+  'i-iconly-bold-arrow-up-solid',
+  'i-iconly-bold-arrow-up-square',
+  'i-iconly-bold-arrow-up',
+  'i-iconly-bold-bag-2',
+  'i-iconly-bold-bag',
+  'i-iconly-bold-bookmark',
+  'i-iconly-bold-buy',
+  'i-iconly-bold-calendar',
+  'i-iconly-bold-call-missed',
+  'i-iconly-bold-call-silent',
+  'i-iconly-bold-call',
+  'i-iconly-bold-calling',
+  'i-iconly-bold-camera',
+  'i-iconly-bold-category',
+  'i-iconly-bold-chart',
+  'i-iconly-bold-chat',
+  'i-iconly-bold-chevron-down-circle',
+  'i-iconly-bold-chevron-down',
+  'i-iconly-bold-chevron-left-circle',
+  'i-iconly-bold-chevron-left',
+  'i-iconly-bold-chevron-right',
+  'i-iconly-bold-chevron-up-circle',
+  'i-iconly-bold-chevron-up',
+  'i-iconly-bold-close-square',
+  'i-iconly-bold-danger',
+  'i-iconly-bold-delete',
+  'i-iconly-bold-discount',
+  'i-iconly-bold-discovery',
+  'i-iconly-bold-document',
+  'i-iconly-bold-download',
+  'i-iconly-bold-edit-square',
+  'i-iconly-bold-edit',
+  'i-iconly-bold-filter',
+  'i-iconly-bold-filter2',
+  'i-iconly-bold-folder',
+  'i-iconly-bold-game',
+  'i-iconly-bold-graph',
+  'i-iconly-bold-heart',
+  'i-iconly-bold-hide',
+  'i-iconly-bold-home',
+  'i-iconly-bold-image',
+  'i-iconly-bold-image2',
+  'i-iconly-bold-info-circle',
+  'i-iconly-bold-info-square',
+  'i-iconly-bold-location',
+  'i-iconly-bold-lock',
+  'i-iconly-bold-login',
+  'i-iconly-bold-logout',
+  'i-iconly-bold-message',
+  'i-iconly-bold-more-circle',
+  'i-iconly-bold-more-square',
+  'i-iconly-bold-notification',
+  'i-iconly-bold-paper-download',
+  'i-iconly-bold-paper-fail',
+  'i-iconly-bold-paper-negative',
+  'i-iconly-bold-paper-plus',
+  'i-iconly-bold-paper-upload',
+  'i-iconly-bold-paper',
+  'i-iconly-bold-password',
+  'i-iconly-bold-people',
+  'i-iconly-bold-play',
+  'i-iconly-bold-plus',
+  'i-iconly-bold-scan',
+  'i-iconly-bold-search',
+  'i-iconly-bold-send',
+  'i-iconly-bold-setting',
+  'i-iconly-bold-shield-done',
+  'i-iconly-bold-shield-fail',
+  'i-iconly-bold-show',
+  'i-iconly-bold-star',
+  'i-iconly-bold-swap',
+  'i-iconly-bold-tick-square',
+  'i-iconly-bold-ticket-star',
+  'i-iconly-bold-ticket',
+  'i-iconly-bold-time-circle',
+  'i-iconly-bold-time-square',
+  'i-iconly-bold-unlock',
+  'i-iconly-bold-upload',
+  'i-iconly-bold-user-plus',
+  'i-iconly-bold-user',
+  'i-iconly-bold-users',
+  'i-iconly-bold-video',
+  'i-iconly-bold-voice',
+  'i-iconly-bold-voice2',
+  'i-iconly-bold-volume-down',
+  'i-iconly-bold-volume-off',
+  'i-iconly-bold-volume-up',
+  'i-iconly-bold-wallet',
+  'i-iconly-bold-work',
+]
+</script>
+
+<template>
+  <!-- <iconify-icon icon="nigga" /> -->
+
+  <div class="max-w-[900px] mx-auto">
+    <div grid grid-cols-5 lg:grid-cols-6 md gap-4>
+      <div v-for="(icon, index) in boldWeight" :key="index" class="flex items-center justify-center border border-3 rounded-[1rem] border-[#e5e7eb] w-[122px] h-[122px]">
+        <div inline-block :class="icon" text-12 :title="icon" />
+      </div>
+    </div>
+  </div>
+</template>
+
+<route lang="yaml">
+meta:
+  layout: home
+</route>

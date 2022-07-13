@@ -1,0 +1,21 @@
+{
+	"prefix": "iconly",
+	"name": "iconly",
+	"total": 50,
+	"author": {
+		"name": "Iconly Team",
+		"url": "https://iconly.pro/"
+	},
+	"license": {
+		"title": "",
+		"url": "",
+		"spdx": ""
+	},
+	"samples": [
+		"iconly-bold-activity",
+		"iconly-broken-call",
+		"iconly-bulk-discovery"
+	],
+	"height": 24,
+	"palette": true
+}

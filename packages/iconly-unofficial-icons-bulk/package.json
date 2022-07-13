@@ -1,0 +1,31 @@
+{
+	"name": "@iconly-unofficial-icons/bulk",
+	"description": "Iconify icon components for iconly",
+	"version": "0.0.1",
+	"type": "module",
+	"iconSetInfo": {
+		"name": "iconly",
+		"total": 100,
+		"author": {
+			"name": "Iconly Team",
+			"url": "https://iconly.pro/"
+		},
+		"license": {
+			"title": "",
+			"url": "",
+			"spdx": ""
+		},
+		"samples": [
+			"iconly-bold-activity",
+			"iconly-broken-call",
+			"iconly-bulk-discovery"
+		],
+		"height": 24,
+		"palette": false
+	},
+	"bugs": "https://github.com/iconly-unofficial/iconly/issues",
+	"homepage": "https://github.com/iconly-unofficial/iconly",
+	"dependencies": {
+		"@iconify/types": "^1.1.0"
+	}
+}
